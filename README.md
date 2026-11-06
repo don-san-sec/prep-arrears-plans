@@ -63,6 +63,7 @@ Worked examples from the handbook:
 src/arrears/
   models.py           Customer, Plan, Payment; plan status and actions
   payments.py         allocate(); any payment goes to the current bill first (rule 1)
+  monitoring.py       assess_plan(); plan monitoring and escalation (ARR-40)
 tests/
 ```
 
